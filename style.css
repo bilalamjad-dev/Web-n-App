@@ -1,0 +1,67 @@
+/* {
+    color: red;
+}*/
+/*h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+p.odd-num{
+    color: red;
+}
+.even-num{
+    color: blue;
+}
+#para 
+{
+    color: green;
+}
+p > b {
+    color: brown;
+    text-decoration: undersline;
+}
+p a {
+    color: blueviolet;
+}
+h1+p {
+    background-color: aquamarine;
+}
+b {
+    color: pink !important;
+}
+p b {
+    color: blueviolet;*/
+
+/*h1~p {
+    background-color: blueviolet;
+}*/
+
+.prod {
+    border: 1px solid grey;
+    width: 25%;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 100px;
+    background-color: lightgray;
+}
+img.prod-img {
+    
+    width: 100%;
+}
+.prod .add-cart {
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+.price {
+    font-size: 25px;
+    margin: 0px 44%;
+
+}
+
+.bot {
+    font-size: 30px;
+    margin: 0px;
+}
