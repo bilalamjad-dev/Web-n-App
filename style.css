@@ -34,7 +34,9 @@ p b {
 /*h1~p {
     background-color: blueviolet;
 }*/
-
+body{
+    margin: 0x;
+}
 .prod {
     border: 1px solid grey;
     width: 25%;
@@ -64,4 +66,22 @@ img.prod-img {
 .bot {
     font-size: 30px;
     margin: 0px;
+}
+.parent-div{
+    border: 20px solid red;
+    width: 50%;
+    height: 250px;
+    padding: 10px;
+   background-color: aqua;
+   margin: auto;
+   margin-top: 25%;
+}
+.child-div{
+   background-color: green;
+   width: 100%;
+   height: 100%;
+   padding: 10p;
+}
+.inner-child-div{
+
 }
