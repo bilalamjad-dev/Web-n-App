@@ -1,0 +1,499 @@
+/*
+@import url(assets/css/font.css);
+.fpicp {
+    font-family:coogoose-pro-bold-trial ;
+}*/
+@font-face{
+    font-family: Creato-light;
+    src: url(assets/fonts/Creato/creato_display/CreatoDisplay-Light.otf);
+}
+.lowhead{
+font-family: Creato-light;
+letter-spacing: 1px;
+}
+
+
+* {
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+}
+
+body {
+    background-color: black;
+    background-image: url(https://images.unsplash.com/photo-1607128849509-bdccb1b58d09?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+
+}
+
+.head {
+    background-color: white;
+    padding: 15px;
+
+
+
+}
+
+.head a {
+    text-decoration: none;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    color: black;
+    vertical-align:top;
+    margin-left: px;
+
+}
+.head a:hover{
+    color: blue;
+    text-decoration: underline solid blue;
+}
+.link1 {
+    padding-left: 0;
+}
+
+.linkt2 {
+    padding-left: 15px;
+    width: 19px;
+    margin-right: 0;
+}
+
+.vector {
+    width: 19px;
+}
+
+.lowhead {
+    background-color: white;
+    padding: 5px;
+    position: relative;
+    z-index: 1;
+    animation: 0.3s;
+}
+.Pokedex:hover{
+    color: red;
+
+}
+.Video-Games:hover{
+    color: rgb(156, 52, 216);
+}
+.Card-Game:hover {
+    color: rgb(54, 54, 224);
+
+}
+.Merchandise:hover {
+    color: rgb(112, 35, 18);
+}
+.Events:hover {
+    color:green;
+}
+.Animation:hover {
+    color: lightblue;
+
+}
+.News:hover {
+    color: gray;
+}
+.Features:hover{
+    color: orange;
+}
+.pokcurve {
+    width: 110px;
+    padding-left: 50px;
+  vertical-align: middle;
+}
+
+.img1 {
+    padding-left: 50px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    width: 19px;
+}
+
+.p1 {
+    padding: 20px;
+    word-spacing: 15px;
+    margin-top: 10spx;
+    align-items: center;
+    display: inline-block;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    margin-top: 0;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    animation: 0.3s;
+}
+
+.bodydiv {
+    background-color: rgb(218, 208, 208);
+    padding-top: 20px;
+    width: 85%;
+    height: 1000px;
+    margin: auto;
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+    justify-content: flex-start;
+    position: relative;
+    z-index: 1;
+
+
+
+
+
+}
+
+.bodydiv .chbodydiv {
+
+    border: 1px solid grey;
+    width: 580px;
+    height: 590px;
+    padding-left: 0px;
+    background-color: rgb(56, 54, 54);
+    margin-left: 170px;
+
+}
+
+
+.hr {
+    width: 100%;
+
+}
+
+.bodydiv .chbodydiv {}
+
+.img01 {
+    padding-top: 0px;
+    border-radius: 5px;
+    padding-left: 0px;
+    margin-bottom: auto;
+    padding-bottom: 0;
+}
+
+.fpicp {
+    background-color: rgb(56, 54, 54);
+    margin-top: auto;
+    padding-top: 15px;
+    margin-top: auto;
+    margin-bottom: 0%;
+    font-size: 22.7px;
+    font-weight: bold;
+    color: white;
+    padding-left: 19px;
+}
+
+.fpicp1 {
+    margin-top: auto;
+    background-color: rgb(56, 54, 54);
+    font-size: 17px;
+    color: white;
+    padding-left: 19px;
+}
+
+.esrb {
+   position: absolute;
+   top: 532px;
+   left: 692px;
+}
+
+.childdiv2 {
+    width: 300px;
+    height: 255px;
+    border: none;
+    position: absolute;
+    top: 320px;
+    left: 790px;
+    z-index: 1;
+    background-color: rgb(133, 77, 190);
+
+    ;
+
+}
+
+.purple {
+    width: 100%;
+    height: 150px;
+    border-radius: 5px;
+
+
+    margin-top: 0px;
+    margin-bottom: 10px;
+
+
+}
+
+.para {
+    font-size: 26px;
+    padding-left: 30px;
+    color: white;
+    margin-top: 10px;
+}
+
+.childdiv3 {
+    width: 300px;
+    height: 270px;
+    background-color: rgb(72, 177, 212);
+    border: none;
+  
+   
+  
+
+}
+
+.thirdpic {
+    width: 100%;
+    height: 170px;
+
+
+
+}
+
+.thirdpara {
+    font-size: 26px;
+    padding-left: 30px;
+    color: white;
+    margin-top: 10px;
+
+}
+
+.childdiv4 {
+    border: 1px solid black;
+    width: 270px;
+    height: 250px;
+    padding-top: 0;
+    margin-top: 30px;
+    position: absolute;
+    left: 480px;
+    top: 600px;
+    background-color: rgb(111, 91, 72);
+    z-index: 1;
+}
+
+.twilight {
+    width: 270px;
+    height: 200;
+    margin-top: 0px;
+
+}
+
+.para-t {
+    font-size: 23px;
+    padding-left: 30px;
+    color: white;
+    margin-top: 10px;
+}
+
+.childdiv5 {
+    border: none;
+    width: 270px;
+    height: 250px;
+    padding-top: 0;
+    margin-top: 30px;
+    position: absolute;
+    left: 170px;
+    top: 600px;
+    background-color: rgb(43, 43, 173);
+    z-index: 1;
+    padding-right: 10px;
+}
+
+.dblue {
+    width: 280px;
+    height: 200;
+    margin-top: 0;
+
+}
+
+.para-2 {
+    font-size: 23px;
+    padding-left: 30px;
+    color: white;
+    margin-top: 10px;
+}
+
+.childdiv6 {
+    position: absolute;
+    z-index: 1;
+    top: 615px;
+    left: 790px;
+    width: 200px;
+}
+
+.fivpic {
+    width: 300px;
+    height: 180px;
+}
+
+.button {
+    position: absolute;
+    z-index: 1;
+    top: 310px;
+    background-color: rgb(45, 41, 41);
+    color: white;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+
+.parent2 {
+    width: 100%;
+    height: 500px;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+    bottom: 0;
+    margin: auto;
+    left: 0;
+}
+
+.ch1 {
+    width: 550px;
+    height: 150px;
+    background-color: lightblue;
+    position: absolute;
+    z-index: 1;
+    top: 40px;
+    left: 170px;
+    border-radius: 10px;
+
+
+}
+
+.chpic1 {
+    width: 130px;
+    float: left;
+    padding-left: 23px;
+
+}
+
+.para-3 {
+    z-index: 1;
+    position: absolute;
+    left: 170px;
+    top: 30px;
+    font-size: 30px;
+}
+
+.para-4 {
+    z-index: 1;
+    position: absolute;
+    left: 170px;
+    top: 90px;
+    font-size: 17px;
+    padding-right: 1px;
+
+}
+
+.parent3 {
+    width: 550px;
+    height: 150px;
+    background-color: rgb(245, 245, 126);
+    position: absolute;
+    z-index: 1;
+    top: 40px;
+    left: 800px;
+    border-radius: 10px;
+    border: 2px solid yellow;
+}
+
+.chpic2 {
+    width: 130px;
+    float: left;
+    padding-left: 23px;
+}
+
+p.para-5 {
+    position: absolute;
+    z-index: 1;
+    left: 170px;
+    top: 30px;
+    font-size: 30px;
+    padding-right: 1px;
+}
+
+.para-6 {
+    position: absolute;
+    z-index: 1;
+    left: 170px;
+    top: 90px;
+    font-size: 17px;
+    padding-right: 1px;
+}
+
+.para7 {
+    font-size: 17px;
+    font-weight: 500;
+    z-index: 1;
+    position: absolute;
+    top: 300px;
+    left: 175px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.para7 a {
+    text-decoration: none;
+    color: black;
+}
+
+.para8 {
+    font-size: 26px;
+    position: absolute;
+    z-index: 1;
+    left: 41.5%;
+    top: 300px;
+}
+
+
+.button2 {
+    width: 270px;
+    position: absolute;
+    z-index: 1;
+    top: 400px;
+    left: 41%;
+    background-color: white;
+    color: black;
+    padding-left: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    transition: 0.3s;
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+
+}
+.button2:hover {
+    color: white;
+    background-color: black;
+
+}
+/*
+Bhai jaan aapne daalna bottom waali pic aur hover lagana hai uspar*/
+
+
+.screen {
+    width: 400xpx;
+    height: 50px;
+    position: absolute;
+    z-index: 1;
+    top: 340px;
+    left: 35%;
+}
+.last {
+    width: 100%;
+    height: 100px;
+    margin-top: 0;
+}
+.lastimg1 {
+    width: 130px;
+    margin-left: 0;
+    align:left;
+}
+.lastimg2 {
+    width: 30px;
+}
+.safety {
+    width: 150px;
+    position: absolute;
+    top: 300px;
+    left: 80%;
+}
