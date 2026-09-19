@@ -1,0 +1,316 @@
+body {
+    background-color: rgb(208, 202, 202);
+    margin-top: 0%;
+}
+
+.head {
+    color: red;
+    font-size: 50px;
+    text-align: center;
+    padding-bottom: 1px;
+
+}
+
+.horlin {
+    width: 300px;
+
+background-color: black;
+    text-decoration: none;
+
+}
+
+.parent-div {
+    border: 1px solid black;
+    width: 1000px;
+    height: 530px;
+    margin: auto;
+    position: relative;
+}
+
+.parent-div .fchild-div {
+    border: 2px solid white;
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    color: white;
+    border-radius: 40px;
+    position: absolute;
+    top: 50px;
+    left: 100px;
+}
+
+.parent-div .fchild-div .ffchild-div {
+    border: 1px solid red;
+    background-color: red;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.parent-div .schild-div {
+    border: 2px solid white;
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    color: white;
+    border-radius: 40px;
+    position: absolute;
+   
+    top: 50px;
+    left: 400px;
+}
+
+.schild-div .sschild1-div {
+   
+  border: 1px solid red;
+    background-color: red;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    position: absolute;
+    top: 12px;
+    left: 12px;
+  
+}
+.schild-div .sschild2-div {
+    border: 1px solid red;
+    background-color: red;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    position: absolute;
+    bottom: 12px;
+    right: 12px;
+
+}
+.parent-div .tchild-div {
+ border: 2px solid white;
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    color: white;
+    border-radius: 40px;
+    position: absolute;
+    top: 50px;
+    left: 700px;
+
+}
+.parent-div .tchild-div .tchild1-div {
+      border: 1px solid red;
+    background-color: red;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    position: absolute;
+    bottom: 12px;
+    right: 12px;
+}
+.parent-div .tchild-div .tchild2-div {
+     border: 1px solid red;
+    background-color: red;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    position: absolute;
+    top: 12px;
+    left: 12px;
+}
+.parent-div .tchild-div .tchild3-div {
+    border: 1px solid red;
+    background-color: red;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.parent-div .forchild-div {
+  border: 2px solid white;
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    color: white;
+    border-radius: 40px;
+    position: absolute;
+    top: 300px;
+    left: 100px;   
+}
+.parent-div .forchild-div .forchild1-div {
+      border: 1px solid red;
+    background-color: red;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    position: absolute;
+    bottom: 12px;
+    right: 12px;
+}
+.parent-div .forchild-div .forchild2-div {
+     border: 1px solid red;
+    background-color: red;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    position: absolute;
+    top: 12px;
+    left: 12px;
+}
+.parent-div .forchild-div .forchild3-div {
+     border: 1px solid red;
+    background-color: red;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    position: absolute;
+    top: 12px;
+    right: 12px;
+}
+.parent-div .forchild-div .forchild4-div {
+        border: 1px solid red;
+    background-color: red;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    position: absolute;
+    bottom: 12px;
+    left: 12px;
+}
+.parent-div .fivchild-div{
+     border: 2px solid white;
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    color: white;
+    border-radius: 40px;
+    position: absolute;
+    top: 300px;
+    left: 400px; 
+}
+.parent-div .fivchild-div .fivchild1-div {
+       border: 1px solid red;
+    background-color: red;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    position: absolute;
+    bottom: 12px;
+    right: 12px;
+}
+.parent-div .fivchild-div .fivchild2-div {
+    border: 1px solid red;
+    background-color: red;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    position: absolute;
+    top: 12px;
+    left: 12px;   
+}
+.parent-div .fivchild-div .fivchild3-div {
+       border: 1px solid red;
+    background-color: red;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    position: absolute;
+    top: 12px;
+    right: 12px;
+}
+.parent-div .fivchild-div .fivchild4-div {
+         border: 1px solid red;
+    background-color: red;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    position: absolute;
+    bottom: 12px;
+    left: 12px;
+}
+.parent-div .fivchild-div .fivchild5-div {
+     border: 1px solid red;
+    background-color: red;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.parent-div .sixchild-div {
+      border: 2px solid white;
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    color: white;
+    border-radius: 40px;
+    position: absolute;
+    top: 300px;
+    left: 700px;
+}
+.parent-div .sixchild-div .sixchild1-div {
+       border: 1px solid red;
+    background-color: red;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    position: absolute;
+    bottom: 12px;
+    right: 12px;
+}
+.parent-div .sixchild-div .sixchild2-div {
+     border: 1px solid red;
+    background-color: red;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    position: absolute;
+    top: 12px;
+    left: 12px;   
+}
+.parent-div .sixchild-div .sixchild3-div {
+     border: 1px solid red;
+    background-color: red;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    position: absolute;
+    top: 12px;
+    right: 12px;
+}
+.parent-div .sixchild-div .sixchild4-div {
+      border: 1px solid red;
+    background-color: red;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    position: absolute;
+    bottom: 12px;
+    left: 12px; 
+}
+.parent-div .sixchild-div .sixchild5-div {
+        border: 1px solid red;
+    background-color: red;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    position: absolute;
+    bottom: 85px;
+    right: 12px;
+}
+.parent-div .sixchild-div .sixchild6-div {
+     border: 1px solid red;
+    background-color: red;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    position: absolute;
+    top: 85px;
+    left: 12px;
+}
